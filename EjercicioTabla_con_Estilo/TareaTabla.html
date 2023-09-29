@@ -14,7 +14,7 @@
     <p>Recrea la siguiente tabla con html y hoja de estilo css.</p>
 
     <table border="1">
-        <tr>
+      <thead>  <tr>
             <td rowspan="3"></td>
             <td colspan="6" style="text-align: center;"><b>Venta de coches</b></td>
         </tr>
@@ -31,23 +31,25 @@
             <td><b>Nacionales</b></td>
             <td><b>Importados</b></td>
         </tr>
+    </thead>
+    <tbody>
         <tr>
-            <td>Año 2020</td>
-            <td>342</td>
-            <td>561</td>
-            <td>100</td>
-            <td>98</td>
+            <td >Año 2020</td>
+            <td >342</td>
+            <td >561</td>
+            <td >100</td>
+            <td >98</td>
             <td>221</td>
             <td>141</td>
         </tr>
         <tr>
             <td>Año 2021</td>
-            <td>321</td>
-            <td>521</td>
-            <td>231</td>
-            <td>153</td>
-            <td>341</td>
-            <td>256</td>
+            <td >321</td>
+            <td >521</td>
+            <td >231</td>
+            <td >153</td>
+            <td >341</td>
+            <td >256</td>
         </tr>
         <tr>
             <td>Año 2022</td>
@@ -67,15 +69,18 @@
             <td></td>
             <td></td>
         </tr>
+    </tbody>
+    <tfoot>
         <tr>
             <td><b>Total</b></td>
             <td>1752</td>
-            <td>1881</td>s
+            <td>1881</td>
             <td>1019</td>
             <td>824</td>
             <td>1054</td>
             <td>638</td>
         </tr>
+    </tfoot>
     </table>
 </body>
 </html>
