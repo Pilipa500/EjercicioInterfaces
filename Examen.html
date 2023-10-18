@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Imagenes de diferentes resoluciones</h1>
+</head>
+<body>
+    <picture>
+        <source media="(min-width: 800px)" srcset="imagen1.jpg">
+        <source media="(min-width: 600px)" srcset="imagen2.jpg">
+        <source media="(max-width: 600px)" srcset="imagen3.jpg">
+<img src="imagen3.jpg" alt="Si no se cumple ninguna condición">
+    </picture>  
+
+    <h1>Mapa de imágenes</h1>
+
+    <!-- Mapa de imagen con enlaces a páginas -->
+    <img src="imagen4.jpg" alt="Mapa de imágenes" usemap="#imagemap">
+    <map name="imagemap">
+        <!-- Área para HTML -->
+        <area shape="rect" coords="0,0,200,200" href="https://desarrolloweb.com/home/html" target="_blank" alt="HTML">
+        <!-- Área para CSS -->
+        <area shape="rect" coords="200,0,400,200" href="https://blog.hubspot.es/website/que-es-css" target="_blank" alt="CSS">
+        <!-- Área para JavaScript -->
+        <area shape="rect" coords="400,0,600,200" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank" alt="JavaScript">
+    </map>
+    
+</body>
+</html>
