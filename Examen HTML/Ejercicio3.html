@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Pedido de pizza</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>La pizza</legend>
+            <p>Ingredientes</p>
+            <input type="checkbox">Queso</br>
+            <input type="checkbox">Pimiento</br>
+            <input type="checkbox">Cebolla</br>
+            <p>Tamaño</p>
+            <input type="radio">Pequeña</br>
+            <input type="radio">Mediana</br>
+            <input type="radio">Grande</br>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Datos de entrega</legend>
+            <p>Telefono<input type="tel" required></p>
+            <p>Email<input type="email" placeholder="Escriba aquí su email"></p>
+            <p>Instrucciones especiales</p>
+            <input textarea>
+            <p>Hora e entrega<input type="time">
+
+        </fieldset>
+        <fieldset>
+            <legend>Método de pago</legend>
+            
+            <select name="select">
+                <option value="Efectivo"selecte>Efectivo</option>
+                <option value="Bizum">Bizum</option>
+                <option value="Visa">Visa</option>
+              </select>
+            
+        </fieldset>
+        
+        <button name="button">Ok</button>
+    </form>
+    
+</body>
+</html>
