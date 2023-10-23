@@ -1,0 +1,39 @@
+h1 {
+    letter-spacing: 3;
+    color: green
+}
+
+p {
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orange;
+}
+
+li {
+    list-style-type: circle;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    font-variant: small-caps;
+    color: cornflowerblue;
+}
+
+table,
+th,
+tr,
+td {
+    border-collapse: collapse;
+    border: 1px black solid;
+    caption-side: bottom;
+    
+}
