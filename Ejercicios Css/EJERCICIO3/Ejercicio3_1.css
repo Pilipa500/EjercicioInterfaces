@@ -1,0 +1,12 @@
+table tr:nth-child(odd) {/*aquí he incorporado color de fondo a las filas
+    impares*/
+
+    background-color: rgb(251, 255, 0);
+}
+table tr:nth-child(even) {/*aquí he incorporado color de fondo a las filas
+    pares*/
+    background-color: aqua;
+}
+table tr:nth-child(7){
+    font-size: large; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

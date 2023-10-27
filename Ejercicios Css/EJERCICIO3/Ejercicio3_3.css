@@ -1,0 +1,3 @@
+#id1:hover{font-style: oblique; text-decoration: none;}
+#id2:hover{font-style: italic;}
+a::after {content:" -WEB SEGURA";}

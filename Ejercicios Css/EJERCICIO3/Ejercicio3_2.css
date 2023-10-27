@@ -1,0 +1,21 @@
+*{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+div p::first-line{
+    color: rgb(255, 47, 224);/* Los pseudoelementos no describen un estado, sino que permiten
+    añadir estilos a una parte específica del documento.*/
+}
+#id1::first-letter{
+    font-size: 200%;
+    color: rgb(226, 43, 43);font-weight: bold;
+}
+#id1{font-size: 150%;} 
+#id1{ border-style: dotted; border-color: rgb(0, 255, 13);}
+#id2::first-letter{
+    font-size: 200%;
+    color: rgb(61, 82, 13);font-weight: bold;
+}
+#id2{ border-style: dotted; border-color: aqua;}
+#id3::first-letter{
+    font-size: 200%;
+    color: rgb(226, 162, 43);font-weight: bold;
+}
+#id3{ border-style: dotted; border-color: rgb(255, 0, 0);}
