@@ -1,0 +1,4 @@
+#id1 :hover { text-decoration: overline;}
+#id2 :active {background-color: yellow;}
+#id3 :link {color: green;}
+#id4 :visited { color: brown;}

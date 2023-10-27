@@ -6,3 +6,12 @@ table tr:nth-child(odd) {
 table tr:nth-child(even) {
     background-color: aqua;
 }
+table tr:nth-child(3) {
+    background-color: blueviolet;
+}
+tr:nth-child(3n){
+    text-decoration: underline;
+}
+td:nth-child(3n+2){
+    text-decoration: overline;
+}

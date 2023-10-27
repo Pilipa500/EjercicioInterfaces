@@ -1,0 +1,16 @@
+p::before{
+    content: "Esta es el comentario del principio"; color: aquamarine;
+}
+p::after{
+    content:"Aquí el final"; color: blueviolet;    
+   
+}
+#id1::first-letter{
+    color: rgb(43, 0, 255);
+}
+#id2::first-letter{
+    color:pink;
+}
+p::selection {
+    background-color: green;
+}
