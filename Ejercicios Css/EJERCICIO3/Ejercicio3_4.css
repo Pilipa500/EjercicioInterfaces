@@ -1,0 +1,15 @@
+/* Establece el fondo rojo y el texto blanco al seleccionar un texto */
+div.paraSeleccionado::selection {
+    background-color: red;
+    color: white;
+}
+
+/* Agrega un borde a los elementos finales de su tipo */
+*:last-child {
+    border: 1px solid black;
+}
+
+/* Agrega un margen exterior al primer hijo de cualquier elemento */
+*:first-child {
+    margin-left: 2em; /* 2 veces el ancho de la letra "M" */
+}
