@@ -1,5 +1,5 @@
 /* Establece el fondo rojo y el texto blanco al seleccionar un texto */
-div.paraSeleccionado::selection {
+#class:hover{
     background-color: red;
     color: white;
 }
