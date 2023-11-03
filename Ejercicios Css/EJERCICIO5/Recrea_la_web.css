@@ -36,16 +36,16 @@ p{
     padding-bottom: 0.5em;
 }
 #id2{
-    
+    background-color: grey;
+    height: 10cm;
+    text-align: center;
+    padding: 2%;
 }
+
 /* <!--Ten en cuenta las siguientes indicaciones:
 
 
 
-- Cabecera. Relleno del 2% por todos los lados, color negro, tamaño 20px y letra
-naranja.
-- El menú principal irá en gris, y será una caja de 10 cm de alto. El texto irá alineado
-al centro y llevará un relleno del 2%.
 - Menú lateral. Relleno del 3%, y dimensiones 120px de ancho y 8cm de alto
 - Pie de página: texto alineado al centro, color granate y relleno del 2,3%
 Te adjunto el enlace del tutorial HTML: http://www.abrirllave.com/html/--> */
