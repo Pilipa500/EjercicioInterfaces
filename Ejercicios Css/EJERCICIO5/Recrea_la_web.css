@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+#id1 {
+    background-color: black;
+    font-size: 20px;
+    color: orange;
+    padding: 2%;
+}
+
+a {
+    font-size: 14px;
+    color: green;
+}
+h1{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+img{
+   border: 3px red solid; 
+   margin: top 30px; ;
+   margin: bottom 20px; ;
+}
+li{
+    margin-left: 21px;
+    padding: top 3.5px; ;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+#id2{
+    
+}
+/* <!--Ten en cuenta las siguientes indicaciones:
+
+
+
+- Cabecera. Relleno del 2% por todos los lados, color negro, tamaño 20px y letra
+naranja.
+- El menú principal irá en gris, y será una caja de 10 cm de alto. El texto irá alineado
+al centro y llevará un relleno del 2%.
+- Menú lateral. Relleno del 3%, y dimensiones 120px de ancho y 8cm de alto
+- Pie de página: texto alineado al centro, color granate y relleno del 2,3%
+Te adjunto el enlace del tutorial HTML: http://www.abrirllave.com/html/--> */
