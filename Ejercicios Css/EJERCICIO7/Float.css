@@ -1,0 +1,24 @@
+.class2 {
+    float: right;
+    background-color: aqua;
+    padding: 5px;
+    border: 2px;
+    width: 75%;
+    height: 75%;
+
+}
+
+p {
+    font-style: oblique;
+}
+section{
+    float: left;
+    background-color: crimson;
+    padding: 2px;
+    border: 5px;
+    width: 50%;
+    height: 75%;
+}
+.class3{
+    clear: both;
+}

@@ -27,9 +27,9 @@ img{
    margin: bottom 20px; ;
 }
 li{
-    margin-left: 21px;
+    margin-left: 10px;
     padding: top 3.5px; ;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 p{
     font-size: 1em;
@@ -40,6 +40,20 @@ p{
     height: 10cm;
     text-align: center;
     padding: 2%;
+}
+#id4{
+    padding: 3%;
+    width: 120px;
+    height: 12cm;
+    float: left;
+    border: 1px black solid;
+    background-color: lightcoral;
+    position: relative;
+}
+#id3{
+   background-color: pink;
+    text-align: center;
+    padding: 2.3%;
 }
 
 /* <!--Ten en cuenta las siguientes indicaciones:

@@ -1,0 +1,21 @@
+div {
+    display: none
+}
+
+.class1 {
+    display: inline;
+
+}
+
+.class2 {
+    display: block;
+}
+
+p {
+    border: solid green;
+
+}
+
+.class3 {
+    display: inline-block
+}
