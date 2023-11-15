@@ -1,0 +1,46 @@
+nav{
+    width: 100%;
+    background-color: white;
+    list-style-type: none;/* aquí pongo que no salga las bolas de las lista*/
+    
+}
+
+ nav ul li{
+display: inline-block;
+position: relative;
+ }
+nav ul ul{
+    display: none;
+    
+}
+
+
+nav ul li:hover ul{
+    display: block;
+  
+}
+
+#id1{
+    background-color: coral;
+}
+
+nav ul li ul>li{
+    display:block;
+    position: relative;
+    left:30px;
+}
+
+nav>ul>li{
+    float: left;
+}
+
+nav ul li ul li ul li{
+    display: none;
+}
+
+nav ul li ul li:hover ul li{
+    display: block;
+}
+
+
+
