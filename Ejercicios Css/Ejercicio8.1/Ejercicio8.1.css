@@ -1,0 +1,15 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(230, 228, 210);
+}
+#id1{
+    background-image: url("pizza.png");
+    background-size: contain;
+}
+#id1 input{
+    display: block;
+    font-size: xx-large;
+}
+button{
+    
+}
