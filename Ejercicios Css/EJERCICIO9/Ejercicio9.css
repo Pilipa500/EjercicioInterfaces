@@ -1,0 +1,67 @@
+nav div {
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+
+nav {
+    padding: 20px;
+}
+
+.boton1 {
+    background-color: aquamarine;
+}
+
+.boton2 {
+    background-color: brown;
+    margin-left: 10px;
+}
+
+section {
+    border: solid;
+    border-color: green;
+    width: 1000px;
+    height: 600px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.art1 {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+
+}
+
+.art2 {
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    left: 400px;
+}
+
+.art3 {
+    border: solid;
+    border-color: maroon;
+    width: 700px;
+    height: 200px;
+    position: relative;
+    top: -250px;
+}
+
+.art4 {
+    border: solid;
+    border-color: maroon;
+    width: 150px;
+    height: 550px;
+    position: relative;
+    top: -800px;
+    left: 750px;
+}

@@ -11,5 +11,11 @@
     font-size: xx-large;
 }
 button{
-    
+    border-radius: 12px;
+    width: 5cm;
+    color: cornflowerblue;
+    background-color: pink;
+}
+textarea{
+    resize: none;
 }

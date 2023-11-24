@@ -1,0 +1,20 @@
+body{
+    border: solid;
+
+}
+nav{
+    position: static; 
+    width: 25%;
+    background-color: pink;
+    
+}
+section{
+    background-color: lightskyblue;
+    width: 72%;
+    
+    position: relative;
+    top:-100px;
+    
+    left: 28%;
+   
+}
