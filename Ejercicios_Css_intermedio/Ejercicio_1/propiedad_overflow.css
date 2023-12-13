@@ -1,0 +1,41 @@
+#visible {
+    /* sirve para poner todo el párrafo y que se escriba entero
+    incluso saliendo de la caja */
+    width: 250px;
+    height: 250px;
+    background-color: bisque;
+    overflow: visible;
+}
+
+#scroll {/* Aquí cuando paso el espacio reservado para la caja
+    al usar scroll se pone la barra que desplaza el párrafo */
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    overflow: scroll;
+}
+#hidden{/*Aqui se escribirá en la caja sólo la dimensión del texto
+    que ocupa la caja y el resto se mantiene oculto */
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    overflow: hidden;
+}
+#auto{/*Se parece al scroll y hace que se vea el texto entero */
+    width: 250px;
+    height: 250px;
+    background-color: rgb(192, 218, 255);
+    overflow: auto;
+}
+#xScroll{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(9, 166, 48);
+    overflow-x: scroll;
+}
+#yHidden{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(166, 9, 82);
+    overflow-y: hidden;
+}

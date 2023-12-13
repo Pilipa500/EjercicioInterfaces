@@ -1,0 +1,64 @@
+.div1{
+    position: relative;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px 10px;
+    text-align: center;
+    float: left;
+    line-height: 6;
+    color: white;
+}
+
+.caja1{
+    background-color: chocolate;
+    cursor: crosshair;
+}
+.caja2{
+    background-color: aqua;
+    cursor:help ;
+}
+.caja3{
+    background-color: rgb(210, 30, 210);
+    cursor: move;
+}
+.caja4{
+    background-color: rgb(30, 210, 177);
+    cursor: pointer;
+}
+.caja5{
+    background-color: rgb(30, 210, 108);
+    cursor: progress;
+}
+.caja6{
+    background-color: rgb(210, 45, 30);
+    cursor: text;
+}
+.caja7{
+    background-color: rgb(30, 120, 210);
+    cursor: wait;
+}
+.caja8{
+    background-color: rgb(159, 210, 30);
+    cursor: vertical-text;
+}
+.caja9{
+    background-color: rgb(30, 162, 210);
+    cursor: alias;
+}
+.caja10{
+    background-color: rgb(30, 210, 45);
+    cursor: no-drop;
+}
+.caja11{
+    background-color: rgb(63, 30, 210);
+    cursor: grab;
+}
+.caja12{
+    background-color: rgb(30, 210, 165);
+    cursor: grabbing;
+}
