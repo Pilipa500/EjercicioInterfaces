@@ -1,0 +1,41 @@
+nav {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.paginacion {
+    list-style: none;
+    display: flex;
+    cursor: crosshair;
+}
+
+.pagina {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagina:hover {
+    background-color: #c0c0c0;
+}
+
+.activa {
+    background-color: #4caf50;
+    color: white;
+}
+
+.atras {
+    padding: 10px;
+}
+.alante{
+    padding: 10px;
+}
