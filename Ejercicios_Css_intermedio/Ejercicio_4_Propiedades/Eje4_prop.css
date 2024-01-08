@@ -1,0 +1,12 @@
+
+img{
+   
+    display: block;
+
+}
+img[src$=".png"]{
+    border: 5px solid black;
+}
+img[src$=".jpg"]{
+    border: 6px dotted green;
+}
