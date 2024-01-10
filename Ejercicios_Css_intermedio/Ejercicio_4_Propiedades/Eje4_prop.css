@@ -1,8 +1,17 @@
+header {
+    text-align: center;
+    background-color: #f0f0f0; /* Color de fondo para la cabecera */
+    padding: 10px;
+}
 
+.cajaImagenes{
+    text-align: center;
+}
 img{
-   
     display: block;
-
+    margin: 10px auto; /*Centrar las imágenes*/
+    max-width: 100%;/*Ajustar el tamaño máximo al ancho del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
 }
 img[src$=".png"]{
     border: 5px solid black;
@@ -10,3 +19,48 @@ img[src$=".png"]{
 img[src$=".jpg"]{
     border: 6px dotted green;
 }
+p{/* Propiedades personalizadas para el párrafo*/
+
+    --color-principal: #333;
+    --font: Arial, sans-serif;
+    --font-size: 18px;
+    --line-height: 1.5;
+    --text-align: center;
+
+    font-family: var(--font);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color:var(--color-principal);/*Color del texto*/
+    text-align: var(--text-align);
+}
+/*Filtros para las imágenes*/
+img:nth-child(1){
+    filter: grayscale(30%);
+}
+img:nth-child(2) {
+    filter: sepia(80%);
+}
+
+img:nth-child(3) {
+    filter: brightness(120%);
+}
+
+img:nth-child(4) {
+    filter: contrast(150%);
+}
+img:nth-child(5) {
+    filter: blur(2px);
+}
+
+img:nth-child(6) {
+    filter: hue-rotate(90deg);
+}
+
+img:nth-child(7) {
+    filter: saturate(200%);
+}
+
+img:nth-child(8) {
+    filter: invert(100%);
+}
+
