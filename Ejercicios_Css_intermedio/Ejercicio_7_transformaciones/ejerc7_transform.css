@@ -1,4 +1,4 @@
-div{
+div {
     width: 180px;
     height: 180px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -6,21 +6,99 @@ div{
     text-align: center;
     float: left;
     line-height: 180px;
+    transition: all 2s ease; /* Agrega transición de 2 segundos a todas las propiedades */
 }
 
-#id1{
+#id1 {
     background-color: aqua;
-    transition:3s;
+    transform-origin: center; /* Añade punto de origen de la transformación */
 }
-#id1:hover{
+
+#id1:hover {
     background-color: chocolate;
-    scale: 5;
+    transform: scale(1.5); /* Usa transform para escalar */
 }
-#id2{
+
+#id2 {
     background-color: rgb(153, 0, 255);
-    transition: 3s;
 }
-#id2:hover{
+
+#id2:hover {
     background-color: rgb(30, 210, 168);
     transform: rotate(360deg);
+}
+
+#id3 {
+    background-color: yellow;
+    transform-origin: left; /* Añade punto de origen de la transformación */
+}
+
+#id3:hover {
+    background-color: orange;
+    transform: translateX(50px);
+}
+
+#id4 {
+    background-color: red;
+}
+
+#id4:hover {
+    background-color: darkred;
+    transform: skewX(10deg);
+}
+
+#id5 {
+    background-color: green;
+}
+
+#id5:hover {
+    background-color: darkgreen;
+    transform: skewY(15deg);
+}
+
+#id6 {
+    background-color: blue;
+}
+
+#id6:hover {
+    background-color: navy;
+    transform: translateY(50px);
+}
+
+#id7 {
+    background-color: lightcoral;
+}
+
+#id7:hover {
+    background-color: darkred;
+    transform: translate(50px, 50px);
+}
+
+#id8 {
+    background-color: lightgray;
+}
+
+#id8:hover {
+    background-color: darkgray;
+    transform: translate(20px, 20px) skew(10deg, 10deg);
+}
+
+#id9 {
+    background-color: lightpink;
+    perspective: 150px;
+}
+
+#id9:hover {
+    background-color: darkred;
+    transform: rotateX(45deg);
+}
+
+#id10 {
+    background-color: lightseagreen;
+    perspective: 150px;
+}
+
+#id10:hover {
+    background-color: darkcyan;
+    transform: rotateY(45deg);
 }
