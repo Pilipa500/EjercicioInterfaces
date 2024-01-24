@@ -1,0 +1,10 @@
+/* La primera media query especifica una hoja de estilo para ser utilizada
+cuando la ventana tiene un ancho entre 450 y 800 píxeles y la segunda media query para
+pantallas menores a 449 píxeles. Escribe cómo será el CSS */
+
+@media (min-width: 450px) and (max-width: 800px){
+
+}
+@media (max-width: 449px){
+
+}
