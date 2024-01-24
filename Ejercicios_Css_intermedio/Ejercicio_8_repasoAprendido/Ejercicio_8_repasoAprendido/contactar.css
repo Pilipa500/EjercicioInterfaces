@@ -1,0 +1,24 @@
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    width: 550px;
+}
+
+.contenedor1 {
+    width: 800px;
+    background-color: rgb(206, 98, 172);
+    margin: 20px;
+    border: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px 2px grey;
+    position: relative;
+
+}
+.contenedor1:hover{
+    background-color: rgb(255, 127, 210);
+
+}

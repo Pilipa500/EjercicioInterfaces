@@ -1,0 +1,27 @@
+.cuadrado{
+    width: 200px;
+    height: 100px;
+    background-color: crimson;
+}
+.cuadrado:hover{
+    transform: rotate(360deg);
+    transition:3s;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    transition: 5s;
+}
+.circulo:hover{
+   
+    transform: translateX(1600px);
+}
+h1{
+    transition: 3s;
+    margin-left: 500px;
+}
+h1:hover{
+    transform: scale(2);
+}
