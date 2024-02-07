@@ -1,16 +1,14 @@
-body {
+body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 300px;
+    padding: 100px;
 }
-
-header {
+header{
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
 }
-
 nav {
     background-color: #444;
     color: white;
@@ -44,7 +42,7 @@ aside {
     background-color: #eee;
     padding: 20px;
     width: 20%;
-    float: left;
+    float: right;
     overflow: hidden;
 }
 
