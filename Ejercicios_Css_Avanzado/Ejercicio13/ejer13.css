@@ -1,0 +1,56 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+header {
+    background-color: rgb(162, 226, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #706969;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+nav {
+    background-color: green;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+ 
+}
+
+nav li {
+    margin-top: -11px;
+    background-color: green;
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-weight: 10px;
+    word-spacing: 2px;
+}
+
+a {
+    color: white;
+}
+
+.cabecera {
+    width: 100%;
+}
+
+#d1 {
+    background-color: rgb(242, 242, 118);
+    border: 2px solid rgb(160, 160, 25);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
