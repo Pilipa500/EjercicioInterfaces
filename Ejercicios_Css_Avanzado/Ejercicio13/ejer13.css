@@ -45,12 +45,40 @@ a {
 .cabecera {
     width: 100%;
 }
+.bolded{
+    font-weight: bolder;
+}
 
 #d1 {
     background-color: rgb(242, 242, 118);
-    border: 2px solid rgb(160, 160, 25);
+    border: 3px solid rgb(160, 160, 25);
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding-top: 15px;
     padding-left: 10px;
+    margin-bottom: 10px;
+}
+#d2 {
+    background-color: rgb(182, 253, 167);
+    border: 3px solid rgb(25, 160, 34);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#d3 {
+    background-color: rgb(176, 205, 243);
+    border: 3px solid rgb(53, 46, 185);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#d4{
+
+}
+.rating{
+    
 }
