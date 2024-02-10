@@ -77,8 +77,26 @@ a {
     margin-bottom: 10px;
 }
 #d4{
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
 
 }
+#d5{
+    padding: 10px;
+    border: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+#d6{
+    padding: 10px;
+    border: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
 .rating{
+    width: 5%;
     
 }
+/* .hombre{
+    width: 10%;
+} */
