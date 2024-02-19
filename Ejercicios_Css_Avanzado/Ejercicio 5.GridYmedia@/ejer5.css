@@ -1,5 +1,4 @@
 /* Estilo para pantallas mayores de 800px */
-@media (min-width:801px){
 body{ 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: gray;
@@ -61,7 +60,7 @@ footer{
     background-color: rgb(220, 60, 220);
     text-align: center;    
 }
-}
+
 /* Estilos para pantallas de hasta 800px */
 @media (max-width: 800px) {
     .navegador {
