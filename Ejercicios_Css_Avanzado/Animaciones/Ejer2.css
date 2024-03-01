@@ -1,0 +1,13 @@
+/* Muestre un cuadrado rojo de 200px de lado.
+Que al poner el cursor encima se cambia su ancho para ocupar 600px
+Que al quitar el curso vuelva a su tamaño original.
+Que dure 3 segundos. */
+#cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 3s;
+}
+#cuadrado:hover{
+    width: 600px;
+}

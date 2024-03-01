@@ -1,0 +1,56 @@
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('espacio.png'); /* Coloca la imagen del espacio de fondo */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #astronauta {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background-image: url('astronauta.png'); /* Imagen del astronauta */
+      background-size: cover;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: moverAstronauta 5s linear infinite; /* La duración de la animación */
+    }
+
+    @keyframes moverAstronauta {
+      0% {
+        transform: translate(-50%, -50%);
+      }
+      50% {
+        transform: translate(-50%, -50%) translateX(1000px);
+      }
+      100% {
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    #boton {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      z-index: 999;
+    }
+
+    #boton:hover {
+      background-color: #cccccc;
+    }
+
+    #boton:active + #astronauta {
+      animation-play-state: paused;
+    }

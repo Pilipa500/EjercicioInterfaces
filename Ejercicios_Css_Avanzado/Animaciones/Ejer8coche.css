@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('carretera.png'); /* Carretera de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  #coche {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('coche.png'); /* Imagen del astronauta */
+    background-size: cover;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: moverCoche 10s linear; /* La duración de la animación */
+    animation-timing-function: ease-in-out;/*velocidad de la animacion*/
+  }
+  @keyframes moverCoche {
+    from {
+      transform: translate(-50%, -50%);
+    }
+    /* 50% {
+      transform: translate(-50%, -50%) ;
+    } */
+    to {
+      transform: translate(-50%, -50%) translateX(2000px);
+    }
+  }

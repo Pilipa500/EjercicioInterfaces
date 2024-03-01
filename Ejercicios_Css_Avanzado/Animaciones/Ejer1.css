@@ -1,0 +1,24 @@
+
+/* Muestre un cuadrado rojo de 200px de lado.
+Que al poner el cursor encima gire 45 grados y cambie su color a azul.
+Que al quitar el curso vuelva a su posición y su color original.
+Que dure 2 segundos. */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: transform 2s, background-color 2s;
+}
+
+.cuadrado:hover {
+    transform: rotate(45deg);
+    background-color: blue;
+}

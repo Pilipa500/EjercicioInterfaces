@@ -1,0 +1,17 @@
+/* Que el fondo sea gris claro.
+Muestre un input de tipo text de fondo banco, bordes sin redondear.
+Que al poner el curso sobre él para escribir, se hagan los bordes redondeados, el color de fondo sea un azul muy clarito, se añada una sombra suave de color azul.
+Que al quitar el curso el input vuelva a su etilo original.
+Que dure 1 segundo. */
+body{
+    background-color: gainsboro;
+}
+input{
+    background-color: white;
+    transition: text 1s;
+}
+input:hover{
+    background-color: rgb(182, 229, 238);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Sombra suave de color azul */
+}
