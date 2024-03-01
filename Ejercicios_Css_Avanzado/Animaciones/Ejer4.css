@@ -1,0 +1,54 @@
+/* En el fondo se verá una foto con la torre de pisa.
+Que sobre el borde superior de la torre coloques la imagen de una pelota.
+Que al pulsar un botón se active una animación que deje caer la pelota hasta el suelo y al acabar se quede ahí.
+Si se vuelve a pulsar el botón, repetirá la animación.
+La duración de la animación será de 9,4s (Es lo que tardaría en caer una pelota desde la torre de pisa suponiendo que no hay rozamiento)
+Debes probar con distintas animation-timing-function y elegir la que se parezca mas a la caída real de la pelota. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#torre{
+    width: 220px;
+    height: 525px;
+    background-image: url("TorrePisa.png");
+    background-size: contain; /*Para ajustar la imagen al tamaño del contenedor*/
+    background-position: center; /*la imagen se centrará*/
+    background-repeat: no-repeat; /* evita que la imagen se repita*/
+    position: relative; /* Para posicionar la pelota relativa a la torre*/
+}
+#pelota{
+    width: 30px;
+    height: 30px;
+    background-color: red; /*color de la pelota*/
+    border-radius: 50%; /*pelota redonda*/
+    position: absolute; /* Posición absoluta para mover la pelota dentro de la torre */
+    top: 0; /*posicion inicial de la pelota*/
+    left: 95px; /*alinear con la parte superior de la torre*/
+    animation: caidaPelota 9.4s ease-out forwards; /* Animación de la caída */
+}
+@keyframes caidaPelota {
+    to{
+        top: 495px; /* Posicion final de la pelota (altura de la torre*/
+    }
+}
+.boton{
+    display: none;/*Ocultar el checkbox*/
+}
+.boton + label {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton:checked + label {
+    background-color: #0056b3; /* Color de fondo del botón al estar activo */
+}
