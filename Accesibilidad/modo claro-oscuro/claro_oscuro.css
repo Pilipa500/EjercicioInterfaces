@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Reboto Serif, serif';
+    margin:0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+main{
+    padding: 0 20px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: colum;
+}
+button{
+    border-radius: 5px;
+    color:white;
+    padding:10px;
+    border: none;
+    font-family: 'Roboto Serif, serif';
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* @media (prefer-color-sheme:dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+} */
+/* [data-them="light"]{
+    -primary: rgb(7, 177, 244);
+    -background: white;
+    -color: black;
+} */
+[data-theme="dark"]{
+ 
+    background-color: black;
+    color: white;
+}
