@@ -1,0 +1,8 @@
+.row {
+    background-color:rgb(237, 122, 122);
+    border: solid black 1px;
+}
+.col-3{
+    border: solid black 1px;
+    background-color: azure;
+}

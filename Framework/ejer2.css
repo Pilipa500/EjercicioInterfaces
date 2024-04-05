@@ -1,0 +1,13 @@
+.row{
+    border: solid black 1px;
+}
+.col{
+    background-color: aquamarine;
+    border: solid black 1px;
+}
+.col-4{
+    background-color: red;
+}
+.col-8{
+    background-color: aquamarine;
+}
